@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}Smart Expense Tracker{% endblock %}
+{% block content %}
+<main class="landing-shell">
+    <nav class="topbar"><a class="brand" href="{{ url_for('main.index') }}"><span class="brand-mark">S</span> Smart Expense Tracker</a><a class="button button-ghost" href="{{ url_for('auth.login') }}">Sign in</a></nav>
+    <section class="landing-hero"><p class="eyebrow">YOUR MONEY, CLEARER</p><h1>Make every rupee<br><em>count.</em></h1><p class="hero-copy">A calm, intelligent home for your spending, savings, and financial momentum.</p><a class="button button-primary" href="{{ url_for('auth.register') }}">Create your free account <span>-></span></a><div class="hero-stats"><div><strong>100%</strong><span>private by design</span></div><div><strong>PKR</strong><span>your default currency</span></div><div><strong>24/7</strong><span>clarity on demand</span></div></div></section>
+</main>
+{% endblock %}
