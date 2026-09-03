@@ -1,6 +1,6 @@
 # Screenshot Guide
 
-Browser-level screenshot capture is not configured in this repository. Capture the following images from a local run at `http://127.0.0.1:5000/` using a browser viewport around 1440 x 1000. Use a demo account and fictional data only.
+The repository includes a captured set of these images using a fictional demo account. To recapture them, open the local app at `http://127.0.0.1:5000/` using a browser viewport around 1440 x 1000. Use fictional data only.
 
 1. `01-login.png`: Open `/auth/login`; show the clean sign-in form.
 2. `02-register.png`: Open `/auth/register`; show the registration form without entered credentials.
@@ -13,4 +13,4 @@ Browser-level screenshot capture is not configured in this repository. Capture t
 9. `09-reports.png`: Open `/reports/`; show the report view and CSV export action.
 10. `10-dark-mode.png`: Toggle the theme and capture a representative dashboard or settings view.
 
-Do not include passwords, real email addresses, database files, terminal windows, or browser developer tools. Save the completed files in this directory using the exact names above. The README intentionally does not embed pending screenshots.
+Do not include passwords, real email addresses, database files, terminal windows, or browser developer tools. Save replacement files in this directory using the exact names above.

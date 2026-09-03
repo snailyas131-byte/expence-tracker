@@ -23,7 +23,27 @@ Smart Expense Tracker gives each account a private financial workspace. Users ca
 
 ## Screenshots
 
-Real screenshots are not included yet. Follow [docs/SCREENSHOT_GUIDE.md](docs/SCREENSHOT_GUIDE.md) to capture the ten recommended views with fictional data.
+Captured locally with fictional demo data. The screenshot guide is available at [docs/SCREENSHOT_GUIDE.md](docs/SCREENSHOT_GUIDE.md).
+
+| Login | Registration |
+| --- | --- |
+| ![Login](screenshots/01-login.png) | ![Registration](screenshots/02-register.png) |
+
+| Dashboard | Add transaction |
+| --- | --- |
+| ![Dashboard](screenshots/03-dashboard.png) | ![Add transaction](screenshots/04-add-transaction.png) |
+
+| Transactions | Budgets |
+| --- | --- |
+| ![Transactions](screenshots/05-transactions.png) | ![Budgets](screenshots/06-budgets.png) |
+
+| Savings goals | Analytics |
+| --- | --- |
+| ![Savings goals](screenshots/07-savings-goals.png) | ![Analytics](screenshots/08-analytics.png) |
+
+| Reports | Dark mode |
+| --- | --- |
+| ![Reports](screenshots/09-reports.png) | ![Dark mode](screenshots/10-dark-mode.png) |
 
 ## Technology Stack
 
@@ -102,7 +122,6 @@ The tests cover registration, login, protected routes, transaction creation, das
 - PDF report generation is not implemented.
 - Transaction pagination is not implemented.
 - Browser-level automated visual testing is not included.
-- Portfolio screenshots must be captured manually; see the screenshot guide.
 
 ## Future Improvements
 
